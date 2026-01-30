@@ -1,0 +1,13 @@
+name: 'Hello World'
+description: 'Greet someone!'
+inputs:
+  name:
+    description: 'Name'
+    required: true
+    default: 'Harry'
+outputs:
+  greeting:
+    description: 'How we greeted you!'
+runs:
+  using: 'node20'
+  main: 'index.js'
